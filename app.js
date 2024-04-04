@@ -18,7 +18,7 @@ app.get('/productos', (req, res) => {
 });
 
 // Escucha en el puerto 13000
-const PORT = 13200;ss
+const PORT = 13000;ss
 app.listen(PORT, () => {
   console.log(`Servidor Express corriendo en el puerto ${PORT}`);
 });
